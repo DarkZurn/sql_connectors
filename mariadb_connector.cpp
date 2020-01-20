@@ -2,6 +2,11 @@
 #include <string>
 #include <vector>
 
+/*
+To comile add: 
+-I"Your path to mariadb"\include\mysql -L"Your path to mariadb"\lib "Your path to mariadb"\lib\libmariadb.dll
+*/
+
 namespace sql_con {
   //Object work with Mariadb server
   class MariaDB_connector {
